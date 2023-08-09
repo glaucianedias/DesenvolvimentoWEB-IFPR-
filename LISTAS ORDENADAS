@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Estados da região Sul</h1>
+    <ul> <!--Lista não ordenada-->
+        <li>Paraná</li>
+        <ol start="1" type="a"> <!--Lista ordenada-->
+            <li>Curitiba</li>
+            <li>Colombo</li>
+            <li>Pinhais</li>
+        </ol>
+        <li>Santa Catarina</li>
+        <li>Rio Grande do Sul</li>
+    </ul>     
+</body>
+</html>
