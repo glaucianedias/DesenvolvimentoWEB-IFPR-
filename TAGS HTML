@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index</title>
+</head>
+<body>
+    <p>Segundo Fulano</p>
+    <blockquote cite="htttp://www.deondeveiootexto.html">Este texto é a citação de algum livro mas agora estou inventando 
+        algum texto para exemplificar</blockquote>
+    <p>Citação curta <q>Pessoas são boas!</q></p>
+    <p><abbr title="Instituto Federal do Paraná">IFPR</abbr>Foi fundado em 2008</p>
+    <address>
+        Escrito por Eduardo Takao <br>
+        Rua Antomio Chemim, 28 <br> São Gabriel <br>
+        Colombo - PR<br>
+    </address>
+</body>
+</html>
