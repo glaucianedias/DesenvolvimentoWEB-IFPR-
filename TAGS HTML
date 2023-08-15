@@ -7,15 +7,17 @@
     <title>index</title>
 </head>
 <body>
+    <h1 style="color: #47852A;background-color: chartreuse"> Exemplos de elementos </h1>
     <p>Segundo Fulano</p>
     <blockquote cite="htttp://www.deondeveiootexto.html">Este texto é a citação de algum livro mas agora estou inventando 
         algum texto para exemplificar</blockquote>
     <p>Citação curta <q>Pessoas são boas!</q></p>
-    <p><abbr title="Instituto Federal do Paraná">IFPR</abbr>Foi fundado em 2008</p>
+    <p><abbr title="Instituto Federal do Paraná">IFPR </abbr>Foi fundado em 2008</p>
     <address>
         Escrito por Eduardo Takao <br>
         Rua Antomio Chemim, 28 <br> São Gabriel <br>
         Colombo - PR<br>
     </address>
+    <bdo dir="rtl">Instituto Federal do Paraná</bdo>
 </body>
 </html>
