@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blocos</title>
+</head>
+<body>
+    <div style="background-color: aqua; color: blue; border: 2px solid gray; font-family: Georgia;">
+        <h2>Curitiba</h2>
+        <p>É a capital do Paraná. Sua população estimada é de cerca de 1,9 mi de habitantes.</p>
+    </div>
+<p>Eu tenho olhos <span style="color: green">verdes </span>mas meu marido tem olhos <span style="color: brown">castanhos</span>.</p>
+</body>
+</html>
