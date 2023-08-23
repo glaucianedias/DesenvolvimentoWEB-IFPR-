@@ -1,0 +1,19 @@
+body{background-color: white;}
+
+h1{border-width: thick;
+border-style: dotted;
+border color: gold}
+
+h2{border-width: medium;
+border-style: outset;
+border-color: red;}
+
+h3{border-width: thick;
+    border-style: double;
+    border-color: green;}
+    
+p{
+    border-width: large;
+    border-style: dashed;
+    border-color: blue;
+}
