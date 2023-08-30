@@ -1,19 +1,78 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        h1{color: brown}
-        p{color: blueviolet}
-    </style>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.menu {
+  float: left;
+  width: 20%;
+  text-align: center;
+}
+
+.menu a {
+  background-color: #e5e5e5;
+  padding: 8px;
+  margin-top: 7px;
+  display: block;
+  width: 100%;
+  color: black;
+}
+
+.main {
+  float: left;
+  width: 60%;
+  padding: 0 20px;
+}
+
+.right {
+  background-color: #e5e5e5;
+  float: left;
+  width: 20%;
+  padding: 15px;
+  margin-top: 7px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 620px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width: 100%;
+  }
+}
+</style>
 </head>
-<body>
-    <H1 style="color: blue">Um cabeçalho azul</H1>
-    <p style="color: red">Paragrafo vermelho</p>
-    <H1>Um cabeçalho azul</H1>
-    <p>Paragrafo vermelho</p>
+<body style="font-family:Verdana;color:#aaaaaa;">
+
+<div style="background-color:#e5e5e5;padding:15px;text-align:center;">
+  <h1>Olá,TADS2023!!!!</h1>
+</div>
+
+<div style="overflow:auto">
+  <div class="menu">
+    <a href="#">Disciplinas</a>
+    <a href="#">Horário</a>
+    <a href="#">Projetos</a>
+    <a href="#">Informes</a>
+  </div>
+
+  <div class="main">
+    <h2>Curso de TADS</h2>
+    <p>Tecnológo em Análise e Desenvolvimento de Sistemas</p>
+  </div>
+
+  <div class="right">
+    <h2>Sobre</h2>
+    <p>Professora de informática.</p>
+    <p>Mestre em Ciências da Computação pela UFSC</p>
+    <p>Bacharel em Ciências da Computação pela FURB</p>
+  </div>
+</div>
+
+<div style="background-color:#e5e5e5;text-align:center;padding:10px;margin-top:7px;">© copyright Claudia</div>
+
 </body>
 </html>
